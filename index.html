@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FindSport</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <svg class="sprites">
+        <symbol id="arrow" width="14" height="11" viewBox="0 0 14 11">
+            <g>
+                <path d="M1 5.5H13M13 5.5L8 1M13 5.5L8 10" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </g>
+        </symbol>
+
+        <symbol id="slider__arrow__prev" width="64" height="64" viewBox="0 0 64 64">
+            <g>
+                <circle cx="32" cy="32" r="31" transform="rotate(-180 32 32)" stroke="white" stroke-width="2"/>
+                <path d="M35.429 22.8569L26.2861 31.9997L35.429 41.1426" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </g>
+        </symbol>
+
+        <symbol id="slider__arrow__next" width="64" height="64" viewBox="0 0 64 64">
+            <g>
+                <circle cx="32" cy="32" r="31" stroke="white" stroke-width="2"/>
+                <path d="M28.571 41.1431L37.7139 32.0003L28.571 22.8574" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </g>
+        </symbol>
+    </svg>
+    <div class="header__menu">
+        <div class="header__logotype"><img src="/img/header__logotype.svg"></div><a class="text__500 link header__button" data-goto=".block__nine">Подключиться</a>
+    </div>
+    <div class="block__one">
+        <div class="big__logotype"><img src="/img/big__logotype.svg"></div>
+        <div class="logotype">
+            <img src="/img/logotype.svg" alt="logotype">
+        </div>
+        <div class="heading__800">
+            <div><a class="heading__pink">Новые клиенты</a><br><a> для вашей площадки</a></div>
+        </div>
+        <div class="text__400">
+            <div><a>и удобная система управления расписанием</a></div>
+        </div>
+            <a data-goto=".block__nine" class="link learn__more">Узнать подробнее<div class="learn__arrow">
+                <svg class="">
+                    <use xlink:href="#arrow"></use>
+                </svg>
+            </div></a>
+    </div>
+    <div class="block__two">
+        <div class="two__container">
+            <div class="heading__700"><a>Разместите<br>площадку на<br></a>
+                <a class="heading__pink">FindSport.ru</a>
+                </div>
+                <div class="two__photo"><img src="/img/two-mini.png"></div>
+                <ul>
+                    <li><a>FindSport занимает первые позиции в<br>
+                        поисковиках – это значит, что клиенты точно<br>
+                        найдут вашу площадку</a></li>
+                    <li><a>Мы привелкаем для вас клиентов из контекстной<br>
+                        рекламы и с тематических сайтов</a></li>
+                    <li><a>
+                        Мы продвигаем и рассказываем о вашей<br>
+                        площадке в социальных сетях
+                    </a></li>
+                </ul>
+                <a data-goto=".block__nine" class="link learn__more">Отправить заявку<div class="learn__arrow">
+                    <svg class="">
+                        <use xlink:href="#arrow"></use>
+                    </svg>
+                </div></a>
+        </div>
+        <div class="two__photo"><img src="/img/block__two__photo.png"></div>
+    </div>  
+    <div class="block__three">
+        <div class="three__content">
+            <div class="heading__700"><a>Крупнейший сервис онлайн<br>
+                бронирования спортивных площадок</a></div>
+               <div class="stats__container">
+                <div class="three__stats">
+                    <div class="stat__container">
+                        <div class="heading__900"><a>650</a></div>
+                        <div class="text__400"><a>тысяч человек в год<br>
+                            посещает наш сервис</a></div>
+                    </div>
+                </div>
+                <div class="three__stats">
+                    <div class="stat__container">
+                        <div class="heading__900"><a>23</a></div>
+                        <div class="text__400"><a>тысячи бронирований<br>
+                            спортивных площадок<br>
+                            за год</a></div>
+                    </div>
+                </div>
+                <div class="three__stats">
+                    <div class="stat__container">
+                        <div class="heading__900"><a>98</a></div>
+                        <div class="text__400"><a>миллионов рублей<br>
+                            заработали площадки<br>
+                            за год в нашем<br>
+                            сервисе</a></div>
+                    </div>
+                </div>
+                <div class="three__stats">
+                    <div class="stat__container">
+                        <div class="heading__900"><a>5</a></div>
+                        <div class="text__400"><a>тысяч отзывов<br>
+                            о площадках</a></div>
+                    </div>
+                </div>
+               </div>
+        </div>
+    </div>
+    <div class="block__four">
+        <div class="block__four-one">
+            <div class="heading__700"><a>Наши возможности</a></div>
+            <div class="block__image"><img src="/img/ipad-one.png"></div>
+            <div class="heading__700-circe"><a>Страница вашей площадки на findsport.ru</a></div>
+            <div class="text__400"><a>Каждый день ваши клиенты ищут площадки на<br>
+                нашем сайте. Они будут видеть вашу страницу с<br>
+                расписанием, и вы сможете продавать им свои<br>
+                услуги.</a></div>
+        </div>
+        <div class="block__four-two">
+            <div class="block__image"><img src="/img/imac (1).png"></div>
+            <div class="container__four">
+                <div class="heading__700-circe"><a>Расписания на вашем сайте</a></div>
+                <div class="text__400"><a>Упростите своим клиентам процесс<br>
+                    бронирования, ведь бронировать<br>
+                    онлайн быстрее и удобнее чем<br>
+                    звонить по телефону. Вы сможете<br>
+                    мгновенно продавать время, которое<br>
+                    у вас освободилось, повышая<br>
+                    прибыль площадки.</a></div>
+            </div>
+        </div>
+        <div class="block__four-three">
+            <div class="container__four">
+                <div class="heading__700-circe"><a>Удобное расписание для<br>
+                    администратора</a></div>
+                <div class="text__400"><a>Теперь вся информация о клиентах,<br>
+                    их оплатах и бронированиях никуда<br>
+                    не потеряется. Вести расписание<br>
+                    легко и приятно – это ускоряет работу<br>
+                    и сокращает ошибки.</a></div>
+            </div>
+            <div class="block__image"><img src="/img/table.png"></div>
+        </div>
+        <div class="block__four-four">
+            <div class="block__image"><img src="/img/regist.png"></div>
+            <div class="container__four">
+                <div class="heading__700-circe"><a>Прием онлайн-оплат<br>
+                    от клиентов</a></div>
+                <div class="text__400"><a>Принимайте оплату прямо на вашем<br>
+                    сайте и на FindSport.ru, а все<br>
+                    технические детали мы возьмём на<br>
+                    себя. Клиенты, которые оплачивают<br>
+                    онлайн значительно реже отменяют<br>
+                    занятия.</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="block__five">
+        <div class="heading__700"><a>Наши возможности</a></div>
+        <ul>
+            <li><div class="heading__700-circe"><a>Страница вашей площадки на findsport.ru</a></div>
+            <div class="text__400"><a>Каждый день ваши клиенты ищут площадки на нашем сайте. Они будут<br>
+                видеть вашу страницу с расписанием, и вы сможете продавать им<br>
+                свободное время.</a></div>
+            </li>
+            <li><div class="heading__700-circe"><a>Расписания на вашем сайте</a></div>
+            <div class="text__400"><a>Упростите своим клиентам процесс бронирования, ведь бронировать<br>
+                онлайн быстрее и удобнее чем звонить по телефону.</a></div>
+            </li>
+            <li><div class="heading__700-circe"><a>Удобное расписание для администратора</a></div>
+            <div class="text__400"><a>Теперь вся информация о клиентах, их оплатах и бронированиях никуда<br>
+                не потеряется. Вести расписание легко и приятно – это ускоряет работу<br>
+                и сокращает ошибки.</a></div>
+            </li>
+            <li><div class="heading__700-circe"><a>Прием онлай-оплат от клиентов</a></div>
+            <div class="text__400"><a>Принимайте оплату прямо на вашем сайте и на FindSport.ru, а все<br>
+                технические детали мы возьмём на себя. Клиенты, которые оплачивают<br>
+                онлайн значительно реже отменяют занятия.</a></div>
+            </li>
+        </ul>
+        <a data-goto=".block__nine" class="link learn__more">Узнать больше<div class="learn__arrow">
+            <svg class="">
+                <use xlink:href="#arrow"></use>
+            </svg>
+        </div></a>
+    </div>
+    <div class="block__six">
+        <div class="heading__700"><a>Посмотрите видео о <a class="heading__pink">FindSport</a></a></div>
+        <div><img src="/img/video.png"></div>
+    </div>
+    <section class="block__seven">
+        <div class="swiper-container">
+            <div class="heading__buttons"><div class="heading__700"><a>Что говорят<a class="heading__pink"> наши клиенты</a></a></div>
+            <svg class="swiper-button-prev">
+                <use xlink:href="#slider__arrow__prev"></use>
+            </svg>
+            <svg class="swiper-button-next">
+                <use xlink:href="#slider__arrow__next"></use>
+            </svg>
+        </div>
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="image__slide"><img src="/img/slide_one.png"></div>
+                <div class="heading__700-circe"><a>Футбольный зал «Профи»</a></div>
+                <div class="text__400"><a>Уже на стадии зарождения<br>
+                    идеи о создании<br>
+                    футбольного манежа, мы<br>
+                    связались с ребятами из...</a></div>
+                <div class="text__600"><a href="#">Показать полностью</a></div>
+                <div class="slide__name"><div class="slide__avatar"><a class="text__400">A</a></div><div class="text__500"><a>Анжела</a></div></div>
+            </div>
+            <div class="swiper-slide">
+                <div class="image__slide"><img src="/img/slide_one.png"></div>
+                <div class="heading__700-circe"><a>Футбольный зал «Профи»</a></div>
+                <div class="text__400"><a>Уже на стадии зарождения<br>
+                    идеи о создании<br>
+                    футбольного манежа, мы<br>
+                    связались с ребятами из...</a></div>
+                <div class="text__600"><a href="#">Показать полностью</a></div>
+                <div class="slide__name"><div class="slide__avatar"><a class="text__400">A</a></div><div class="text__500"><a>Анжела</a></div></div>
+            </div>
+            <div class="swiper-slide">
+                <div class="image__slide"><img src="/img/slide_one.png"></div>
+                <div class="heading__700-circe"><a>Футбольный зал «Профи»</a></div>
+                <div class="text__400"><a>Всем привет!!! Вот уже<br>
+                    более трёх лет я пользуюсь<br>
+                    Агрегатором, заказов<br>
+                    получаю не мало в...</a></div>
+                <div class="text__600"><a href="#">Показать полностью</a></div>
+                <div class="slide__name"><div class="slide__avatar"><a class="text__400">A</a></div><div class="text__500"><a>Андрей</a></div></div>
+            </div>
+            <div class="swiper-slide">
+                <div class="image__slide"><img src="/img/slide__two.png"></div>
+                <div class="heading__700-circe"><a>Футбольный зал «Профи»</a></div>
+                <div class="text__400"><a>Отличный сервис, очень<br>
+                    удобная система<br>
+                    бронирования и<br>
+                    интерфейс.</a></div>
+                <div class="slide__name"><div class="slide__avatar"><a class="text__400">A</a></div><div class="text__500"><a>Андрей</a></div></div>
+            </div>
+            <div class="swiper-slide">
+                <div class="image__slide"><img src="/img/slide__three.png"></div>
+                <div class="heading__700-circe"><a>Футбольный зал «Профи»</a></div>
+                <div class="text__400"><a>Уже на стадии зарождения<br>
+                    идеи о создании<br>
+                    футбольного манежа, мы<br>
+                    связались с ребятами из...</a></div>
+                <div class="text__600"><a href="#">Показать полностью</a></div>
+                <div class="slide__name"><div class="slide__avatar"><a class="text__400">A</a></div><div class="text__500"><a>Андрей</a></div></div>
+            </div>
+            <div class="swiper-slide">
+                <div class="image__slide"><img src="/img/slide__two.png"></div>
+                <div class="heading__700-circe"><a>Футбольный зал «Профи»</a></div>
+                <div class="text__400"><a>Отличный сервис, очень<br>
+                    удобная система<br>
+                    бронирования и<br>
+                    интерфейс.</a></div>
+                <div class="slide__name"><div class="slide__avatar"><a class="text__400">A</a></div><div class="text__500"><a>Андрей</a>
+                </div></div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <div class="block__eight">
+        <div class="heading__700"><a>Истории внедрений</a></div>
+        <div class="slider__container">
+            <div class="slide">
+                <div class="slide__heading">
+                    <div class="heading__700"><a>Центр Пляжных видов спорта «Жара»</a></div>
+                    <div class="text__400"><a>это 3 крытые площадки для круглогодичных занятий пляжным волейболом и теннисом недалеко от м. Молодёжная.<br>
+                        Отвечал директор центра — Николай Гнеденков.</a></div>
+                    <div class="read__more"><a>Читать полностью</a></div>
+                </div>
+                <div class="slide__content">
+                        <div class="slide__container">
+                           <div class="heading__text">
+                            <div class="heading__700"><a>Расскажите о работе клуба после открытия.<br>
+                                сколько было клиентов? какая была<br>
+                                загруженность на площадке? были ли<br>
+                                проблемы с администрированием?</a></div>
+                            <div class="text__400"><a>По началу было сложно. Мы открылись не в сезон, в<br>
+                                декабре. А сезон нашего центра начинается с сентября<br>
+                                месяца. Загруженность на площадках была<br>
+                                минимальная, около 30%. Клуб работал без<br>
+                                администраторов. Я всем занимался сам. </a></div>
+                           </div>
+                           <div class="heading__text">
+                            <div class="heading__700"><a>Как проходил процесс подключения к<br>
+                                Findsport? как долго/быстро адаптировались?<br>
+                                Как быстро администраторы привыкали?</a></div>
+                            <div class="text__400"><a>Я работал в режиме многозадачности, поэтому было<br>
+                                сложно вначале быстро адаптироваться. Findsport я<br>
+                                сделал основной площадкой для ведения центра и<br>
+                                где-то за месяц-полтора я привык к работе с ней.</a></div>
+                           </div>
+                           <div class="heading__text">
+                            <div class="heading__700"><a>Как изменилась ситуация после подключения<br>
+                                на Findsport? </a></div>
+                            <div class="text__400"><a>Findsport предоставил нам постоянных клиентов. Я<br>
+                                думаю, что большинство клиентов пишут "поиграть в<br>
+                                волейбол", ваш сайт выпадает и люди заходят и<br>
+                                выбирают. Сейчас о нас уже все знают, ваш сайт и наши<br>
+                                соц сети дают плоды. Мы думали, что ситуация по<br>
+                                загруженности площадок будет хуже, а оказалось<br>
+                                намного лучше. </a></div>
+                           </div>
+                        </div>
+                        <div class="slide__container"> 
+                            <div class="heading__text">
+                                <div class="heading__700"><a>Как узнали о Findsport?</a></div>
+                                <div class="text__400"><a>Коллеги (по пляжному волейболу) посоветовали вашу<br>
+                                площадку. Я в кратчайшие сроки с вами связался и<br>
+                                подключился к вам.</a></div>
+                            </div>
+                            <div class="heading__text">
+                                <div class="heading__700"><a>Какими инструментами Findsport пользуетесь. </a></div>
+                                <div class="text__400"><a>На данный момент мы размещаем площадки на<br>
+                                Findsport, также сразу установили виджет расписания<br>
+                                на наш сайт, чтобы люди бронировали у нас. Онлайн<br>
+                                оплату пока не подключили, но доработаем, так как<br>
+                                вижу, что это удобно. </a></div>
+                            </div>
+                            <div class="heading__text">
+                                <div class="heading__700"><a>Где рекламируетесь?</a></div>
+                                <div class="text__400"><a>Мы активно прокачиваем наш инстраграм и неплохо<br>
+                                работает сарафанное радио. Возможно вольпользуемся<br>
+                                дополнительной рекламой на Findsport.</a></div>
+                            </div>
+                            <div class="heading__text">
+                                <div class="heading__700"><a>2-3 самых полезных функции сайта</a></div>
+                                <div class="text__400"><a>Удобство бронирования с точки зрения и<br>
+                                клиента и администратора. И старым и новым клиентам удобно<br>
+                                пользоваться сайтом. Еще очень хорошо работают<br>
+                                уведомления о новых заказах. Администратор сразу<br>
+                                видит заказ и либо сразу отправляет подтверждение<br>
+                                клиенту, либо созванивается с ним, если есть<br>
+                                какие-нибудь вопросы.</a></div>
+                            </div>                          
+                        </div>
+                        <div class="read__less"><a>Читать меньше</a></div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <div class="block__nine">
+            <div class="nine__content">
+                <div class="heading__700"><a>Отправьте заявку</a></div>
+        <div class="text__400 complete__form"><a>Заполните форму и наш менеджер с вами свяжется. Он расскажет как работает<br>
+            наш сервис и как к нему подключиться.</a></div>
+            <div class="container__input">
+                <input required type="text" placeholder="Имя и фамилия">
+                <input required type="text" placeholder="Телефон">
+                <input required type="text" placeholder="E-mail">
+                <input required type="text" placeholder="Название площади или клуба">
+                <input required type="text" placeholder="Адрес" class="complete__form">
+            </div>
+            <a href="#" class="learn__more">Отправить заявку<div class="learn__arrow">
+                <svg class="">
+                    <use xlink:href="#arrow"></use>
+                </svg></div></a>
+            <div class="text__400 nine__accept"><a>Отправляя заявку, вы принимаете <a class="underline" href="#">условия пользовательского соглашения и<br>
+                положения об обработке персональных данных.</a></a></div>
+            <div class="bottom__info">
+                <div class="text__400"><a>© 2013 – 2021 FindSport.ru</a></div>
+                <div class="number__email">
+                    <div class="text__400"><a>+7 (499) 501-34-12</a></div>
+                    <div class="text__400"><a target="_blank" href="https://findsport.ru/">info@findsport.ru</a></div>
+                </div>
+            </div>
+            </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/js/header.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="/js/slider__one.js"></script>
+</body>
+</html>
